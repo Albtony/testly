@@ -1,10 +1,10 @@
-package com.example.testly;
+package com.example.testly_be;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TestlyApplicationTests {
+class TestlyBeApplicationTests {
 
 	@Test
 	void contextLoads() {

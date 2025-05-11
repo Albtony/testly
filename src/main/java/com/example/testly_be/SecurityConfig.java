@@ -1,4 +1,4 @@
-package com.example.testly;
+package com.example.testly_be;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

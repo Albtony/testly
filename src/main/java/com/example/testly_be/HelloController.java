@@ -1,4 +1,4 @@
-package com.example.testly;
+package com.example.testly_be;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
