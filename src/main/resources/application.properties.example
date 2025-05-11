@@ -4,5 +4,6 @@ spring.datasource.password=${DB_PASSWORD}
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
-server.port=8080
+server.port=${BE_PORT}
+frontend.url=${FE_URL}
 logging.level.org.springframework.web=DEBUG
