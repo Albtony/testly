@@ -1,10 +1,25 @@
+# ========== Project-Specific ==========
 HELP.md
+
+# Ignore all Spring Boot config files (secrets not in repo)
+src/main/resources/application.properties
+src/main/resources/application-*.properties
+
+# Ignore Maven build output
 target/
-!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# Ignore Gradle build output (for dual support or IDE use)
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Ignore Maven Wrapper except JAR
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ========== Spring Tool Suite (STS) ==========
 .apt_generated
 .classpath
 .factorypath
@@ -13,21 +28,18 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+# ========== IntelliJ IDEA ==========
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# ========== NetBeans ==========
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# ========== VS Code ==========
 .vscode/
